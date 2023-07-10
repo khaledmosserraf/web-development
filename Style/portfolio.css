@@ -1,6 +1,7 @@
 /* google font family */
 *{
     font-family: 'Open Sans', sans-serif;
+    margin: 0px;
 }
 .p-color{
     color: #FD6E0A;
@@ -12,12 +13,20 @@
     font-size: 20px;
     font-weight: 700;
     color: white;
-    padding: 18px 35px;
+    padding: 10px 25px;
 }
+/* Header styling */
+.m-header{
+    background-color: #FFF8F3;
+}
+
 
 /* nav styles */
 nav{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 200px;
 }
 
 .h-title{
@@ -26,11 +35,9 @@ nav{
     font-weight: 800;
 
 }
-
-
-
 nav > ul{
     display: flex;
+    align-items: center;
 }
 
 nav li{
@@ -41,4 +48,20 @@ nav li{
 nav .a{
     text-decoration: none;
     color: #474747;
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+}
+.banner-title{
+    font-size: 45px;
+    font-weight: 600;
+
+}
+.banner-mtitle{
+    font-size: 65px;
+    font-weight: 700;
+}
+.banner .profile-pic{
+    width: 500px;
 }
